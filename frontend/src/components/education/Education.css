@@ -1,0 +1,18 @@
+.education {
+    min-width: 100%;
+    min-height: 70vh;
+    padding: 3rem 2rem;
+    background-color: #807234;
+    color: azure;
+    display: flex;
+    flex-direction: column;
+}
+.education h2 {
+    text-align: center;
+    padding: 1rem;
+}
+.education hr {
+    width: 300px;
+    margin: 0 auto;
+    
+}
