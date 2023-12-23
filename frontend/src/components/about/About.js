@@ -6,18 +6,18 @@ const About = () => {
   return (
     <div className="about">
       <div className="headings">
-        <h4>What skills I have</h4>
-        <h2>My Skills and experience</h2>
+        <h5>What skills I have</h5>
+        <h3>My Skills and experience</h3>
       </div>
       <div className="details">
-        <h3>Frontend Development</h3>
+        <h4>Frontend Development</h4>
         <div className="skills">
           <div className="elements">
             <div>
               <BsPatchCheckFill />
             </div>
             <div>
-              <h4>HTML</h4>
+              <h5>HTML</h5>
               <p>Good Experience with various HTML Projects</p>
             </div>
           </div>
@@ -26,7 +26,7 @@ const About = () => {
               <BsPatchCheckFill />
             </div>
             <div>
-              <h4>CSS</h4>
+              <h5>CSS</h5>
               <p>Good Experience with various CSS Projects</p>
             </div>
           </div>
@@ -35,7 +35,7 @@ const About = () => {
               <BsPatchCheckFill />
             </div>
             <div>
-              <h4>JavaScript</h4>
+              <h5>JavaScript</h5>
               <p>Good Experience with various JavaScript Projects</p>
             </div>
           </div>
@@ -44,7 +44,7 @@ const About = () => {
               <BsPatchCheckFill />
             </div>
             <div>
-              <h4>React JS</h4>
+              <h5>React JS</h5>
               <p>Good Experience with various React JS Projects</p>
             </div>
           </div>
@@ -53,7 +53,7 @@ const About = () => {
               <BsPatchCheckFill />
             </div>
             <div>
-              <h4>Node JS</h4>
+              <h5>Node JS</h5>
               <p>Good Experience with various Node JS Projects</p>
             </div>
           </div>
@@ -63,7 +63,7 @@ const About = () => {
               <BsPatchCheckFill />
             </div>
             <div>
-              <h4>Express JS</h4>
+              <h5>Express JS</h5>
               <p>Good Experience with various Express JS Projects</p>
             </div>
           </div>

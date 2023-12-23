@@ -1,0 +1,50 @@
+.sidebar {
+    width:150px ;
+    min-height: 100vh;
+    background-color: rgb(26, 26, 42);
+    padding: 0.5rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition:1s;
+}
+.sidebar .arrow {
+    text-align: center;
+    color: azure;
+    font-size: 1.5rem;
+    width: 50px;
+    height: 50px;
+    padding: 0.3rem;
+    background-color: red;
+    transform: translateX(134px);
+    border-radius: 10px;
+}
+.toggle-sidebar {
+    transform: translateX(-100%);
+    
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.nav-link a {
+    padding: 1rem;
+    display: block;
+    width: 100%;
+    border-radius: 20px;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+    margin-bottom: 1rem;
+}
+.nav-link:hover {
+    color: rgb(69, 226, 240);
+    cursor: pointer;
+}
+
+.nav-link .active {
+    background-color: red;
+    color: white;
+    border-bottom: none;
+
+}

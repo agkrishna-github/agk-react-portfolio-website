@@ -1,0 +1,93 @@
+.projects {
+    min-width: 100%;
+    min-height: 100vh;
+    padding: 2rem;
+    background-color: #04052C;
+    color: whitesmoke;
+}
+.projects h4,
+.projects h2 {
+    padding: 0.5rem 1rem;
+    text-align: center;
+}
+
+.categories {
+    width: 100%;
+    padding: 2rem;
+    text-align: center;
+    
+}
+.categories .button {
+    width: 150px;
+    padding: 0.8rem 0.5rem;
+    margin-right: 1rem;
+    border-radius: 10px;
+    border: 1px solid whitesmoke;
+    background-color: #04052C;
+    color: whitesmoke;
+}
+.categories .button:hover{
+    border: 1px solid red;
+    transition: all 0.5s ease-in;
+    cursor: pointer;
+}
+
+.menu {
+    width: 85%;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:1rem
+}
+
+.list-item {
+    width: 380px;
+    height: 400px;
+    background-color: aliceblue;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 2rem;
+    border-radius: 25px;
+}
+.list-item h5 {
+    padding: 0.5rem;
+    height: 150px;
+}
+.list-item-image img{
+    width: 250px;
+    height: 150px;
+    border-radius: 25px;
+}
+.list-item-a {
+    width: 100%;
+    padding: 0.5rem 1rem;  
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-item-a a {
+    width: 310px;
+    height: 60px;
+    background-color: rgba(4, 5, 44, 0.8);
+    color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    border: 1px solid black;
+    text-decoration: none;
+    text-align: center;
+}
+
+.list-item-a a:hover {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    transition: 1s;
+}

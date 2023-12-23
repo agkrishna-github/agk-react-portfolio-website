@@ -21,10 +21,10 @@ const Education = () => {
           iconStyle={{ background: "#138781", color: "#fff" }}
           icon={<MdSchool />}
         >
-          <h3 className="vertical-timeline-element-title">MBA</h3>
-          <h4 className="vertical-timeline-element-subtitle">
+          <h4 className="vertical-timeline-element-title">MBA</h4>
+          <h5 className="vertical-timeline-element-subtitle">
             KGR INSTITUTE OF TECHNOLOGY AND MANAGEMENT, TELANGANA
-          </h4>
+          </h5>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -34,10 +34,10 @@ const Education = () => {
           iconStyle={{ background: "#138781", color: "#fff" }}
           icon={<MdSchool />}
         >
-          <h3 className="vertical-timeline-element-title">BCOM</h3>
-          <h4 className="vertical-timeline-element-subtitle">
+          <h4 className="vertical-timeline-element-title">BCOM</h4>
+          <h5 className="vertical-timeline-element-subtitle">
             ABV GOVT DEGREE COLLEGE, TELANGANA
-          </h4>
+          </h5>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
