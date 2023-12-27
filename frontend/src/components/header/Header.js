@@ -2,7 +2,6 @@ import React from "react";
 import "./Header.css";
 import Typewriter from "typewriter-effect";
 import ProfilePic from "../../images/new-profile-pic.jpeg";
-import Zoom from "react-reveal/Zoom";
 
 const Header = () => {
   return (
@@ -21,9 +20,7 @@ const Header = () => {
         </h1>
       </div>
       <div className="image">
-        <Zoom>
-          <img src={ProfilePic} alt="Profile Pic" />
-        </Zoom>
+        <img src={ProfilePic} alt="Profile Pic" />
       </div>
     </div>
   );

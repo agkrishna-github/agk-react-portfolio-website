@@ -5,3 +5,8 @@
     color: rgb(108, 38, 38);
     text-align: center;
 }
+@media (max-width:600px) {
+    .footer {
+        overflow: hidden;
+    }
+}

@@ -33,3 +33,12 @@
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
 }
+
+@media (max-width:600px) {
+    .header {
+        overflow: hidden;
+    }
+                .header .title .Typewriter {
+                    height: 100px;
+                }
+}

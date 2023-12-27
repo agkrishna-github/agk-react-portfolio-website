@@ -39,7 +39,7 @@
 
 }
 .contact-div2{
-    padding: 1rem;
+    padding: 0.5rem;
 }
 .contact-div2 form{
     display: flex;
@@ -75,4 +75,9 @@
     text-decoration: underline;
     color: white;
     transition: 1s;
+}
+@media (max-width:600px) {
+    .contact {
+        overflow: hidden;
+    }
 }
